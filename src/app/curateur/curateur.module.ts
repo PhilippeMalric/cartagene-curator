@@ -7,14 +7,14 @@ import { SharedModule } from '../shared/shared.module';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
-import { MppmRoutingModule } from './mppm-routing.module';
+import { MppmRoutingModule } from './curateur-routing.module';
 import { RacineComponent } from './racine/racine.component';
 
 @NgModule({
   declarations: [
 
-    RacineComponent 
-    
+    RacineComponent
+
   ],
   imports: [
     CommonModule,
@@ -28,4 +28,4 @@ import { RacineComponent } from './racine/racine.component';
   ],
   entryComponents: [ ]
 })
-export class MppmModule {}
+export class CurateurModule {}
