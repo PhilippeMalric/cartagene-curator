@@ -7,7 +7,7 @@ import { SharedModule } from '../shared/shared.module';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
-import { CurateurRoutingModule } from './curateur-routing.module';
+import { CartageneRoutingModule } from './cartagene-routing.module';
 import { RacineComponent } from './racine/racine.component';
 
 @NgModule({
@@ -20,7 +20,7 @@ import { RacineComponent } from './racine/racine.component';
     CommonModule,
     RouterModule,
     SharedModule,
-    CurateurRoutingModule,
+    CartageneRoutingModule,
     FormsModule,
     DragDropModule,
     MatDialogModule,
@@ -28,4 +28,4 @@ import { RacineComponent } from './racine/racine.component';
   ],
   entryComponents: [ ]
 })
-export class CurateurModule {}
+export class CartageneModule {}

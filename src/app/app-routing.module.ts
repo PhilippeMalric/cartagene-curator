@@ -29,6 +29,16 @@ const routes: Routes = [
     loadChildren: () =>
       import('./communication/communication.module').then(m => m.CommunicationModule),
       canActivate: [AuthGuard]
+  },
+  {
+    path: 'cartagene',
+    loadChildren: () =>
+      import('./cartagene/cartagene.module').then(m => m.CartageneModule)
+  },
+  {
+    path: 'catalogue',
+    loadChildren: () =>
+      import('./catalogue/catalogue.module').then(m => m.CatalogueModule)
   }
 
 ];

@@ -66,7 +66,7 @@ $firestarter-warn: mat-palette($mat-red);
 $firestarter-theme: mat-dark-theme($firestarter-primary, $firestarter-accent, $firestarter-warn);
 
 // -or- Can set colour by hex value too
-$custom-background-color: #8b0404;
+$custom-background-color: #40017a;
 
 $background: map-get($firestarter-theme, background);
 $background: map_merge($background, (background: $custom-background-color));
