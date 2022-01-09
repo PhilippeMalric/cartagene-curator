@@ -28,7 +28,7 @@
       <div *ngIf="!(isHandset$ | async)">
 
 
-        <a mat-button routerLink="/login" *ngIf="!(afAuth.authState | async)"><i>🔑</i>  Login</a>
+        <a mat-button routerLink="/login" *ngIf="!(afAuth.authState | async)"><i>🔑</i></a>
         <a mat-button routerLink="/login" *ngIf="afAuth.authState | async as user" >
           <img title="Photo" class="avatar" [src]="user.photoURL || 'assets/default-user.svg'">
           Profile

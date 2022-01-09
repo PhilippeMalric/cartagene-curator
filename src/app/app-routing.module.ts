@@ -39,8 +39,15 @@ const routes: Routes = [
     path: 'catalogue',
     loadChildren: () =>
       import('./catalogue/catalogue.module').then(m => m.CatalogueModule)
+  },
+  {
+    path: 'form',
+    loadChildren: () =>
+      import('./forms_example/forms_example.module').then(m => m.FormsExampleModule)
   }
 
+
+  
 ];
 
 @NgModule({
